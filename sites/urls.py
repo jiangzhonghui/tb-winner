@@ -21,7 +21,13 @@ urlpatterns = patterns('',
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     url('^$', 'views.index', name='idx'),
-    url(r'^promoto/', 'promoto.views.index', name='idx'),
+    url(r'^promo/', 'promo.views.index', name='promo'),
+    url(r'^optcalendar/', 'optcalendar.views.index', name='optcalendar'),
+    url(r'^optanalysis/', 'optanalysis.views.index', name='optanalysis'),
+    url(r'^optcrm/', 'optcrm.views.index', name='optcrm'),
+    url(r'^opthelper/', 'opthelper.views.index', name='opthelper'),
+    url(r'^optlog/', 'optlog.views.index', name='optlog'),
+    url(r'^socialsales/', 'socialsales.views.index', name='socialsales'),
 )
 
 if settings.DEBUG:
