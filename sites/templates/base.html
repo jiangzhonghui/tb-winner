@@ -23,10 +23,26 @@
     <link rel="apple-touch-icon" sizes="72x72" href="{{ STATIC_URL }}ico/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="{{ STATIC_URL }}ico/apple-touch-icon-114x114.png">
 </head>
-<body data-spy="scroll" data-target=".subnav" data-offset="50">
+<body data-spy="scroll" data-target=".subnav" data-offset="0">
+
+<div class="sandbar">
+    <div id="gc-googlebar">
+        <a href="../" id="gc-logo">
+            <img alt="智慧赢家" src="{{ STATIC_URL }}img/developers-logo.png">
+        </a>
+
+        <div class="gc-social">
+            <a href="../newfeatures">新功能上线啦!</a>
+            <span id="gc_user">   欢迎你,<strong>timo_jiang</strong>   </span>
+            <a {% ifequal current_url 'userprofile' %} class="button_active"{% else %}  class="button" {% endifequal %} href="../userprofile">用户中心</a>
+            <a {% ifequal current_url 'helpcenter' %} class="button_active"{% else %}  class="button" {% endifequal %} href="../helpcenter">使用手册</a>
+            <a class="button" href="../logout">退出</a>
+        </div>
+    </div>
+</div>
 <!-- Navbar
     ================================================== -->
-    <div class="navbar navbar-fixed-top">
+    <div class="navbar">
 
         <div class="navbar-inner">
             <div class="container">
@@ -35,10 +51,6 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </a>
-
-                <a class="brand" href="../logout">退出</a>
-                <a class="brand" href="#">timo_jiang</a>
-                <a class="brand" href="../newfeatures">新功能!</a>
                 <div class="nav-collapse">
                     <ul class="nav">
                         <li {% ifequal current_url 'idx' %} class="active"{% else %}  class="" {% endifequal %}>
@@ -65,14 +77,6 @@
                         <li {% ifequal current_url 'socialsales' %} class="active"{% else %}  class="" {% endifequal %}>
                             <a href="../socialsales">会员营销</a>
                         </li>
-
-                        <li class="divider-vertical"></li>
-                            <li {% ifequal current_url 'helpcenter' %} class="active"{% else %}  class="" {% endifequal %}>
-                            <a href="../helpcenter">使用手册</a>
-                        </li>
-                        <li {% ifequal current_url 'userprofile' %} class="active"{% else %}  class="" {% endifequal %}>
-                            <a href="../userprofile">用户中心</a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -87,7 +91,34 @@
            {% endblock %}
         </div><!-- /container -->
 </div>
-    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+<footer id="gc-footer">
+    <div id="gc-copyright">
+        <a href="/">
+            <img style="vertical-align:baseline; float: left" alt="智慧赢家" src="{{ STATIC_URL }}img/developers-logo-footer.png"  id="developers-logo-footer">
+        </a>
+        <ul>
+            <li><a href="../aboutus">关于我们</a></li>
+            <li><a href="#">在线客服</a></li>
+            <li><a href="#">联系我们</a></li>
+            <li><a href="" data-v="devsite-20120817-rc00.361105119236171001" data-b="Documentation" data-p="81425" class="google-feedback">报告错误</a></li>
+        </ul>
+    </div>
+
+    <div id="gc-language">
+        <ul>
+            <li>
+                © 2012  xxx软件技术有限公司    版权所有
+            </li>
+        </ul>
+    </div>
+
+
+
+
+</footer>
+
+    <script src="{{ STATIC_URL }}js/widgets.js"></script>
     <script src="{{ STATIC_URL }}js/jquery.js"></script>
     <script src="{{ STATIC_URL }}js/google-code-prettify/prettify.js"></script>
     <script src="{{ STATIC_URL }}js/bootstrap-transition.js"></script>

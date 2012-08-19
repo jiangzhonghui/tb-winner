@@ -157,11 +157,11 @@ textarea {
 
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:"微软雅黑",Microsoft YaHei,"宋体",arial;
   font-size: 13px;
-  line-height: 18px;
-  color: #333333;
-  background-color: #ffffff;
+  line-height: 22px;
+  color: #444;
+  background-color:#FFF;
 }
 
 a {
@@ -3778,6 +3778,7 @@ input[type="submit"].btn.btn-mini {
   display: block;
   float: left;
   margin: 0 10px 0 0;
+  font-weight: bold;
 }
 
 .navbar .nav.pull-right {
@@ -3796,6 +3797,7 @@ input[type="submit"].btn.btn-mini {
   color: #999999;
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+
 }
 
 .navbar .btn {
@@ -3811,16 +3813,22 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar .nav > li > a:hover {
-  color: #ffffff;
   text-decoration: none;
-  background-color: transparent;
+  color: #ffffff;
+  background-color: #3D9400;
+  'background-image: -moz-linear-gradient(center top , #3D9400, #398A00);
+  font-weight: bold;
+  border: 0.8px solid #29691D;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.1);
 }
 
 .navbar .nav .active > a,
 .navbar .nav .active > a:hover {
-  color: #ffffff;
-  text-decoration: none;
-  background-color: #222222;
+    background-color: #0088CC;
+    border: 0.8px solid #29691D;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
 }
 
 .navbar .divider-vertical {
@@ -4980,4 +4988,144 @@ a.badge:hover {
 
 .invisible {
   visibility: hidden;
+}
+
+.sandbar{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+#gc-googlebar {
+    -moz-box-sizing: border-box;
+    background: none repeat scroll 0 0 #F1F1F1;
+    border-bottom: 1px solid #E5E5E5;
+    color: rgba(255, 255, 255, 0.5);
+    height: 48px;
+    'min-width: 952px;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    position: relative;
+    width: auto !important;
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+
+#gc-googlebar .gc-social {
+    float: right;
+    font-size: 12px;
+    margin-top: -1px;
+}
+
+.sign-out{
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.button {
+    -moz-box-orient: vertical;
+    -moz-box-sizing: content-box;
+    -moz-transition-duration: 0.218s;
+    -moz-transition-property: all;
+    background: -moz-linear-gradient(center top , #F5F5F5, #F1F1F1) repeat scroll 0 0 transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px 2px 2px 2px;
+    color: #666666;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 8px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
+.button_active{
+    -moz-box-orient: vertical;
+    -moz-box-sizing: content-box;
+    -moz-transition-duration: 0.218s;
+    -moz-transition-property: all;
+    text-decoration: none;
+    background-color: #0088CC;
+    background-image: -moz-linear-gradient(center top , #3D9400, #398A00);
+    font-weight: bold;
+    border: 0.8px solid #29691D;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+    border-radius: 2px 2px 2px 2px;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 8px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
+.button:hover{
+    -moz-box-orient: vertical;
+    -moz-box-sizing: content-box;
+    -moz-transition-duration: 0.218s;
+    -moz-transition-property: all;
+    text-decoration: none;
+    background-color: #3D9400;
+    background-image: -moz-linear-gradient(center top , #3D9400, #398A00);
+    font-weight: bold;
+    border: 0.8px solid #29691D;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+    border-radius: 2px 2px 2px 2px;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 8px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+#gc-logo {
+    display: block;
+    height: 37px;
+    vertical-align: top;
+    text-decoration: none;
+    position: absolute;
+}
+
+#gc_user{
+    color: #3D9400;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }

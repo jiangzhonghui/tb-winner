@@ -25,5 +25,5 @@ def userprofile(request):
     return render(request, 'userprofile.html', ctx)
 
 def logout(request):
-    ctx = {}
+    ctx = {'current_url':'idx'}
     return render(request, 'index.html', ctx)

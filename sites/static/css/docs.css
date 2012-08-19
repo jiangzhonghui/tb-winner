@@ -10,7 +10,7 @@
 -------------------------------------------------- */
 body {
   position: relative;
-  padding-top: 90px;
+  padding-top: 0px;
   background-color: #fff;
   background-image: url(../img/grid-18px-masked.png);
   background-repeat: repeat-x;
@@ -501,7 +501,7 @@ h2 + .row {
   margin: 0 auto;
 }
 .marketing-byline {
-  margin: -18px 0 27px;
+  margin: 0px 20 27px;
   font-size: 18px;
   font-weight: 300;
   line-height: 24px;
@@ -668,6 +668,7 @@ form.well {
     z-index: auto;
     width: auto;
     height: auto;
+    font-weight: bold;
     background: #fff; /* whole background property since we use a background-image for gradient */
     -webkit-box-shadow: none;
        -moz-box-shadow: none;
@@ -769,4 +770,134 @@ form.well {
     width: 1168px; /* 2px less to account for left/right borders being removed when in fixed mode */
   }
 
+}
+
+
+#gc-footer {
+    background: none repeat scroll 0 0 #333333;
+    font-size: 14px;
+    font-weight: bold;
+    vertical-align: baseline;
+    display: block;
+    margin: 0;
+    clear: both;
+    overflow: hidden;
+    padding: 0 44px;
+
+}
+#gc-footer > div {
+    line-height: 44px;
+}
+#gc-footer li {
+    margin: 0 30px 0 0;
+}
+#gc-footer a, #gc-footer a:visited {
+    color: rgba(255, 255, 255, 0.8);
+}
+#gc-footer .kd-select {
+    margin-bottom: 2px;
+}
+#gc-footer #developers-logo-footer {
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+#gc-footer #gc-copyright {
+    float: left;
+    width: 65%;
+    height: 30px;
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    vertical-align: baseline;
+}
+#gc-footer #gc-language {
+    float: right;
+    text-align: right;
+    color: #FFFFFF
+}
+#gc-footer #gc-language ul {
+    float: right;
+}
+#gc-topnav {
+    background: none repeat scroll 0 0 #444444;
+    font-size: 14px;
+}
+#gc-topnav > div {
+    line-height: 39px;
+}
+#gc-topnav a, #gc-topnav a:visited {
+    color: #FFFFFF;
+}
+#gc-topnav li {
+    margin: 0 30px 0 0;
+}
+
+#gc-topnav li.active a {
+    font-weight: bold;
+}
+#gc-appnav {
+    background: none repeat scroll 0 0 white;
+    border-bottom: 1px solid #EBEBEB;
+    color: #1155CC;
+    font-size: 14px;
+}
+#gc-appnav > div {
+    line-height: 33px;
+}
+#gc-appnav li {
+    margin: 0 20px 0 0;
+}
+#gc-appnav li.active > a {
+    color: #222222;
+}
+#gc-footer, #gc-topnav, #gc-appnav {
+    clear: both;
+    overflow: hidden;
+    padding: 0 44px;
+}
+#gc-footer a, #gc-footer a:visited, #gc-topnav a, #gc-topnav a:visited, #gc-appnav a, #gc-appnav a:visited {
+    text-decoration: none;
+}
+#gc-footer a:hover, #gc-footer a:visited:hover, #gc-topnav a:hover, #gc-topnav a:visited:hover, #gc-appnav a:hover, #gc-appnav a:visited:hover {
+    text-decoration: underline;
+}
+#gc-footer > div ul, #gc-topnav > div ul, #gc-appnav > div ul {
+    border: 0 none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    vertical-align: baseline;
+    height: 50px;
+}
+#gc-footer > div ul li, #gc-topnav > div ul li, #gc-appnav > div ul li {
+    display: inline;
+    float: left;
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+    white-space: nowrap;
+    list-style: disc;
+}
+
+
+#gc-footer > div ul li:first-child, #gc-footer > div ul li.first, #gc-topnav > div ul li:first-child, #gc-topnav > div ul li.first, #gc-appnav > div ul li:first-child, #gc-appnav > div ul li.first {
+    padding-left: 0;
+}
+#gc-footer > div ul li:last-child, #gc-topnav > div ul li:last-child, #gc-appnav > div ul li:last-child {
+    padding-right: 0;
+}
+#gc-footer > div ul li.last, #gc-topnav > div ul li.last, #gc-appnav > div ul li.last {
+    padding-right: 0;
+}
+#gc-footer > div li, #gc-topnav > div li, #gc-appnav > div li {
+    padding: 0;
 }
