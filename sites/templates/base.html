@@ -37,7 +37,7 @@
                 </a>
 
                 <a class="brand" href="../logout">退出</a>
-                <a class="brand" href="../userprofile">账号</a>
+                <a class="brand" href="#">timo_jiang</a>
                 <a class="brand" href="../newfeatures">新功能!</a>
                 <div class="nav-collapse">
                     <ul class="nav">
@@ -67,8 +67,11 @@
                         </li>
 
                         <li class="divider-vertical"></li>
-                        <li {% ifequal current_url 'helpcenter' %} class="active"{% else %}  class="" {% endifequal %}>
-                            <a href="../helpcenter">帮助中心</a>
+                            <li {% ifequal current_url 'helpcenter' %} class="active"{% else %}  class="" {% endifequal %}>
+                            <a href="../helpcenter">使用手册</a>
+                        </li>
+                        <li {% ifequal current_url 'userprofile' %} class="active"{% else %}  class="" {% endifequal %}>
+                            <a href="../userprofile">用户中心</a>
                         </li>
                     </ul>
                 </div>
