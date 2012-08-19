@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72552e5e-032e-4d78-96f2-753657547fa4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/helpcenter/templates/basecss.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/helpcenter/templates/bootstrapexamples.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/helpcenter/templates/button.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/helpcenter/templates/components.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/helpcenter/templates/customize.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/helpcenter/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/helpcenter/templates/javascript.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/helpcenter/templates/less.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/helpcenter/templates/scaffolding.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/helpcenter/templates/upgradebootstrap2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/helpcenter/templates/userprofile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/templates/base.html" afterPath="$PROJECT_DIR$/sites/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/templates/helpcenter.html" afterPath="$PROJECT_DIR$/sites/templates/helpcenter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/templates/index.html" afterPath="$PROJECT_DIR$/sites/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/templates/newfeatures.html" afterPath="$PROJECT_DIR$/sites/templates/newfeatures.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/templates/optanalysis.html" afterPath="$PROJECT_DIR$/sites/templates/optanalysis.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/templates/optcalendar.html" afterPath="$PROJECT_DIR$/sites/templates/optcalendar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/templates/optcrm.html" afterPath="$PROJECT_DIR$/sites/templates/optcrm.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/templates/opthelper.html" afterPath="$PROJECT_DIR$/sites/templates/opthelper.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/templates/optlog.html" afterPath="$PROJECT_DIR$/sites/templates/optlog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/templates/promo.html" afterPath="$PROJECT_DIR$/sites/templates/promo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/templates/socialsales.html" afterPath="$PROJECT_DIR$/sites/templates/socialsales.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/templates/userprofile.html" afterPath="$PROJECT_DIR$/sites/templates/userprofile.html" />
     </list>
     <ignored path="tb-winner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -390,13 +367,26 @@
       <created>1345283487112</created>
       <updated>1345283487112</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="UI mockup">
+      <created>1345339221394</created>
+      <updated>1345339221394</updated>
+    </task>
+    <task id="LOCAL-00004" summary="UI mockup">
+      <created>1345339250257</created>
+      <updated>1345339250257</updated>
+    </task>
+    <task id="LOCAL-00005" summary="UI mockup">
+      <created>1345339269799</created>
+      <updated>1345339269799</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -411,7 +401,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24929972" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -454,7 +443,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加首页,创建模块,集成UI库以及sample页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI mockup" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -468,6 +457,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="增加首页,创建模块,集成UI库以及sample页面" />
+    <MESSAGE value="UI mockup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
