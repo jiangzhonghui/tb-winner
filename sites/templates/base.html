@@ -27,12 +27,12 @@
 
 <div class="sandbar">
     <div id="gc-googlebar">
-        <a href="../" id="gc-logo">
+        <a href="{%url idx %}" id="gc-logo">
             <img alt="智慧赢家" src="{{ STATIC_URL }}img/developers-logo.png">
         </a>
 
         <div class="gc-social">
-            <a href="../newfeatures">新功能上线啦!</a>
+            <a href="{%url newfeatures %}"><span class="badge badge-important">新功能上线啦!</span></a>
             <span id="gc_user">   欢迎你,<strong>timo_jiang</strong>   </span>
             <a {% ifequal current_url 'userprofile' %} class="button_active"{% else %}  class="button" {% endifequal %} href="../userprofile">用户中心</a>
             <a {% ifequal current_url 'helpcenter' %} class="button_active"{% else %}  class="button" {% endifequal %} href="../helpcenter">使用手册</a>
@@ -54,28 +54,28 @@
                 <div class="nav-collapse">
                     <ul class="nav">
                         <li {% ifequal current_url 'idx' %} class="active"{% else %}  class="" {% endifequal %}>
-                            <a href="../">首页</a>
+                            <a href="{%url idx %}">首页</a>
                         </li>
                         <li {%ifequal current_url 'promo' %} class="active"{% else %}  class="" {% endifequal %}>
-                            <a href="../promo">促销活动</a>
+                            <a href="{%url promo %}">促销活动</a>
                         </li>
                         <li {% ifequal current_url "optcalendar" %} class="active"{% else %}  class="" {% endifequal %}>
-                            <a href="../optcalendar">运营日历</a>
+                            <a href="{%url optcalendar:idx %}">运营日历</a>
                         </li>
                         <li {% ifequal current_url 'optlog' %} class="active"{% else %}  class="" {% endifequal %}>
-                            <a href="../optlog">运营报表</a>
+                            <a href="{%url optlog %}">运营报表</a>
                         </li>
                         <li {% ifequal current_url 'opthelper' %} class="active"{% else %}  class="" {% endifequal %}>
-                            <a href="../opthelper">店铺助手</a>
+                            <a href="{%url opthelper %}">店铺助手</a>
                         </li>
                         <li {% ifequal current_url 'optanalysis' %} class="active"{% else %}  class="" {% endifequal %}>
-                            <a href="../optanalysis">运营分析</a>
+                            <a href="{%url optanalysis %}">运营分析</a>
                         </li>
                         <li {% ifequal current_url 'optcrm' %} class="active"{% else %}  class="" {% endifequal %}>
-                            <a href="../optcrm">会员管理</a>
+                            <a href="{%url optcrm %}">会员管理</a>
                         </li>
                         <li {% ifequal current_url 'socialsales' %} class="active"{% else %}  class="" {% endifequal %}>
-                            <a href="../socialsales">会员营销</a>
+                            <a href="{%url socialsales %}">会员营销</a>
                         </li>
                     </ul>
                 </div>
@@ -98,17 +98,17 @@
             <img style="vertical-align:baseline; float: left" alt="智慧赢家" src="{{ STATIC_URL }}img/developers-logo-footer.png"  id="developers-logo-footer">
         </a>
         <ul>
-            <li><a href="../aboutus">关于我们</a></li>
-            <li><a href="#">在线客服</a></li>
-            <li><a href="#">联系我们</a></li>
-            <li><a href="" data-v="devsite-20120817-rc00.361105119236171001" data-b="Documentation" data-p="81425" class="google-feedback">报告错误</a></li>
+            <li><a href="{%url aboutus %}">关于我们</a></li>
+            <li><a href="{%url onlineservice %}">在线客服</a></li>
+            <li><a href="{%url contactus %}">联系我们</a></li>
+            <li><a href="{%url reportissue %}">报告错误</a></li>
         </ul>
     </div>
 
     <div id="gc-language">
         <ul>
             <li>
-                © 2012  xxx软件技术有限公司    版权所有
+                © 2012  Top-Winner  版权所有
             </li>
         </ul>
     </div>

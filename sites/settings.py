@@ -117,12 +117,19 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'helpcenter',
+    'optanalysis',
+    'optcalendar',
+    'optcrm',
+    'opthelper',
+    'optlog',
+    'promo',
+    'socialsales',
     # Uncomment the next line to enable the admin:
      'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
      'django.contrib.admindocs', 
-     'bootstrap',
-     'dj_scaffold',
+      'dj_scaffold',
      'south',
     'tastypie',
 )
